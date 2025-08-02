@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
-
+import pandas
 device = torch.device("cpu")
 
 model_name = "distilgpt2"
